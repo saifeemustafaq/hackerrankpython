@@ -1,7 +1,7 @@
 import string
 
 def print_rangoli(size):
-    # your code goes here
+    
     N = size
     
     alphabet = string.ascii_lowercase[:N]
@@ -10,7 +10,6 @@ def print_rangoli(size):
     height = N * 2 - 1
     width = N * 4 - 3
     lines = [None] * height
-    #print(height, width, lines, None)
 
     for i in range(N):
         sub_alphabet = alphabet[(-i - 1):]
